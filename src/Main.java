@@ -5,9 +5,9 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         System.out.println("Witaj w kalkulatorze!\n Podaj pierwszą cyfrę");
-        int cyfra1=scanner.nextInt();
+        double cyfra1=scanner.nextDouble();
         System.out.println("Podaj drugą cyfrę");
-        int cyfra2=scanner.nextInt();
+        double cyfra2=scanner.nextDouble();
         System.out.println("Wybierz operację:\n 1 - Dodawanie\n 2 - Odejmowanie\n 3 - Mnożenie\n 4 - Dzielenie");
         int opcja=scanner.nextInt();
         switch(opcja){
